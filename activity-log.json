@@ -1,0 +1,30 @@
+[
+  {
+    "date": "2025-01-01",
+    "timestamp": "2025-01-01T02:47:00+00:00",
+    "commits": 1,
+    "streak_day": 1,
+    "mood": "🚀 shipping",
+    "quote": "Talk is cheap. Show me the code. — Linus Torvalds",
+    "metrics": {
+      "lines_reviewed": 120,
+      "bugs_squashed": 2,
+      "coffee_consumed_ml": 350,
+      "tests_written": 4
+    }
+  },
+  {
+    "date": "2026-05-03",
+    "timestamp": "2026-05-03T06:03:56.904258+00:00",
+    "commits": 2,
+    "streak_day": 1,
+    "mood": "🎯 focused",
+    "quote": "It always seems impossible until it's done. — Nelson Mandela",
+    "metrics": {
+      "commits_pondered": 2,
+      "coffee_consumed_ml": 554,
+      "stack_overflow_tabs": 5,
+      "docs_written_lines": 72
+    }
+  }
+]
