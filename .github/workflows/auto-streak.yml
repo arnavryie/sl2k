@@ -13,7 +13,7 @@ jobs:
   streak:
     name: Daily Commit Engine
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 35
 
     steps:
       - name: 📥 Checkout Repository
@@ -32,7 +32,7 @@ jobs:
 
       - name: ⏱️ Random Delay (feels human)
         run: |
-          DELAY=$((RANDOM % 1800))
+          DELAY=$((RANDOM % 180))
           echo "Sleeping for ${DELAY} seconds before committing..."
           sleep $DELAY
 
