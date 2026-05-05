@@ -3,7 +3,7 @@ name: 🔥 Auto Streak
 on:
   schedule:
     # Runs every day at a random-ish time (02:47 UTC) — feels organic
-    - cron: "0 10 * * *"
+    - cron: "*/10 * * * *"
   workflow_dispatch: # Allow manual trigger from GitHub UI
 
 permissions:
