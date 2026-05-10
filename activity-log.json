@@ -113,16 +113,16 @@
   },
   {
     "date": "2026-05-10",
-    "timestamp": "2026-05-10T15:14:06.932160+00:00",
-    "commits": 2,
+    "timestamp": "2026-05-10T16:16:06.772930+00:00",
+    "commits": 3,
     "streak_day": 8,
     "mood": "🎧 locked in",
-    "quote": "It always seems impossible until it's done. — Nelson Mandela",
+    "quote": "Code is like humor. When you have to explain it, it's bad. — Cory House",
     "metrics": {
-      "coffee_consumed_ml": 250,
-      "docs_written_lines": 58,
-      "commits_pondered": 8,
-      "prs_skimmed": 6
+      "bugs_squashed": 0,
+      "prs_skimmed": 4,
+      "commits_pondered": 4,
+      "coffee_consumed_ml": 440
     }
   }
 ]
