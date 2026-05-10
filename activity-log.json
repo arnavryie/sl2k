@@ -113,16 +113,16 @@
   },
   {
     "date": "2026-05-10",
-    "timestamp": "2026-05-10T22:12:43.168785+00:00",
-    "commits": 3,
+    "timestamp": "2026-05-10T23:12:18.352043+00:00",
+    "commits": 1,
     "streak_day": 8,
     "mood": "🎧 locked in",
-    "quote": "Code is like humor. When you have to explain it, it's bad. — Cory House",
+    "quote": "Talk is cheap. Show me the code. — Linus Torvalds",
     "metrics": {
-      "docs_written_lines": 53,
-      "lines_reviewed": 164,
-      "tests_written": 2,
-      "prs_skimmed": 6
+      "docs_written_lines": 104,
+      "prs_skimmed": 7,
+      "bugs_squashed": 1,
+      "coffee_consumed_ml": 392
     }
   }
 ]
