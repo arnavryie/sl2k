@@ -104,7 +104,7 @@ def update_stats(stats: dict) -> dict:
     last_date = stats.get("last_commit_date", "")
 
     if last_date == today:
-        # Already ran today (manual re-trigger) — just increment daily count
+        # Already ran today — just increment daily count
         stats["daily_commits"] = stats.get("daily_commits", 1) + 1
         return stats
 
@@ -295,18 +295,88 @@ See [SETUP.md](./SETUP.md) for full instructions.
 """
     return readme.strip() + "\n"
 
+# ─── LARGE COMMIT GENERATOR ───────────────────────────────────────────────────
+
+def generate_large_commit_data():
+    """Generates a large chunk of mock data to make the commit size huge so GitHub thinks it's real work."""
+    import string
+    
+    mock_dir = ROOT / "mock_data"
+    mock_dir.mkdir(exist_ok=True)
+    
+    # We write to a rotating file so the repo doesn't grow infinitely large.
+    file_idx = random.randint(0, 5)
+    mock_file = mock_dir / f"system_logs_{file_idx}.json"
+    
+    data = []
+    lines_to_generate = random.randint(1500, 5000)
+    for _ in range(lines_to_generate):
+        data.append({
+            "timestamp": now_utc().isoformat(),
+            "level": random.choice(["INFO", "DEBUG", "WARN", "ERROR", "TRACE", "FATAL"]),
+            "module": random.choice(["auth", "db", "api", "worker", "cache", "scheduler", "payment"]),
+            "message": "".join(random.choices(string.ascii_letters + string.digits + " ", k=random.randint(20, 150))),
+            "metrics": {
+                "cpu_usage": random.uniform(0.1, 99.9),
+                "mem_usage_mb": random.randint(100, 8000),
+                "latency_ms": random.randint(1, 2500)
+            }
+        })
+    
+    save_json(mock_file, data)
+    print(f"[generate.py] Generated large commit data: {len(data)} log entries in {mock_file.relative_to(ROOT)}")
+
+# ─── ORGANIC RANDOMIZER ───────────────────────────────────────────────────────
+
+def should_run(stats: dict) -> bool:
+    """Decides if the script should actually commit right now."""
+    today = today_str()
+    last_date = stats.get("last_commit_date", "")
+    daily_commits = stats.get("daily_commits", 0) if last_date == today else 0
+
+    if daily_commits >= 3:
+        # Cap at ~3 commits a day
+        return False
+
+    current_hour = now_utc().hour
+
+    if daily_commits == 0:
+        # We MUST commit today to keep the streak alive.
+        # If it's getting late (after 20:00 UTC), force a commit.
+        if current_hour >= 20:
+            print("[generate.py] Getting late! Forcing a commit to save the streak.")
+            return True
+        
+        # Otherwise, 1 in 10 chance per run. 
+        # (If cron runs every 10 mins, it's 6 times an hour. Usually commits within 2-3 hours).
+        return random.randint(1, 10) == 1
+    else:
+        # We already have at least 1 commit. We want maybe 1 or 2 more.
+        # 1 in 25 chance to do additional commits.
+        return random.randint(1, 25) == 1
+
 # ─── MAIN ─────────────────────────────────────────────────────────────────────
 
 def main():
     print(f"[generate.py] Running — {now_utc().isoformat()}")
-    print(f"[generate.py] Commit count this run: {COMMIT_COUNT}")
 
     # Load existing data
     stats = load_json(STATS_FILE, {})
+    
+    # Decide organically whether to proceed
+    if not should_run(stats):
+        print("[generate.py] Organic randomizer skipped this run. Staying stealthy.")
+        return
+
+    print(f"[generate.py] Commit count this run: {COMMIT_COUNT}")
+
     log = load_json(ACTIVITY_LOG, [])
 
     # Update stats
     stats = update_stats(stats)
+
+    # Generate huge commit payload
+    generate_large_commit_data()
 
     # Update activity log
     log = update_activity_log(log, stats)
