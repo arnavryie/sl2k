@@ -81,6 +81,14 @@ FAKE_METRICS = [
 # ─── HELPERS ──────────────────────────────────────────────────────────────────
 
 def now_utc() -> datetime:
+    override = os.environ.get("OVERRIDE_DATE")
+    if override:
+        try:
+            base_dt = datetime.strptime(override.strip(), "%Y-%m-%d").replace(tzinfo=timezone.utc)
+            now = datetime.now(timezone.utc)
+            return base_dt.replace(hour=now.hour, minute=now.minute, second=now.second, microsecond=now.microsecond)
+        except ValueError:
+            pass
     return datetime.now(timezone.utc)
 
 def today_str() -> str:
@@ -89,13 +97,13 @@ def today_str() -> str:
 def load_json(path: Path, default):
     if path.exists():
         try:
-            return json.loads(path.read_text())
+            return json.loads(path.read_text(encoding="utf-8"))
         except json.JSONDecodeError:
             pass
     return default
 
 def save_json(path: Path, data):
-    path.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n")
+    path.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
 # ─── STATS ENGINE ─────────────────────────────────────────────────────────────
 
@@ -364,7 +372,8 @@ def main():
     stats = load_json(STATS_FILE, {})
     
     # Decide organically whether to proceed
-    if not should_run(stats):
+    force = "--force" in sys.argv
+    if not force and not should_run(stats):
         print("[generate.py] Organic randomizer skipped this run. Staying stealthy.")
         return
 
@@ -387,13 +396,17 @@ def main():
     # Save everything
     save_json(STATS_FILE, stats)
     save_json(ACTIVITY_LOG, log)
-    README_FILE.write_text(readme)
+    README_FILE.write_text(readme, encoding="utf-8")
 
     # Pick a commit message and write to /tmp for the workflow to read
     msg = random.choice(COMMIT_MESSAGES)
     # Append streak day for extra uniqueness
     msg += f" [day {stats['current_streak']}]"
-    COMMIT_MSG_FILE.write_text(msg)
+    try:
+        COMMIT_MSG_FILE.parent.mkdir(parents=True, exist_ok=True)
+        COMMIT_MSG_FILE.write_text(msg, encoding="utf-8")
+    except Exception as e:
+        print(f"[generate.py] Warning: Could not write commit msg to {COMMIT_MSG_FILE}: {e}")
 
     print(f"[generate.py] Streak day: {stats['current_streak']}")
     print(f"[generate.py] Commit message: {msg}")
