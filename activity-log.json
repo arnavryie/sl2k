@@ -155,16 +155,16 @@
   },
   {
     "date": "2026-05-13",
-    "timestamp": "2026-05-13T14:05:53.996126+00:00",
+    "timestamp": "2026-05-13T14:05:54.400313+00:00",
     "commits": 1,
     "streak_day": 11,
     "mood": "💡 inspired",
-    "quote": "The function of good software is to make the complex appear to be simple. — Grady Booch",
+    "quote": "A good programmer is someone who always looks both ways before crossing a one-way street. — Doug Linder",
     "metrics": {
-      "docs_written_lines": 96,
-      "coffee_consumed_ml": 549,
-      "tests_written": 11,
-      "bugs_squashed": 4
+      "bugs_squashed": 4,
+      "coffee_consumed_ml": 223,
+      "lines_reviewed": 355,
+      "prs_skimmed": 3
     }
   }
 ]
