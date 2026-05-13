@@ -3,7 +3,7 @@
 > *Keeping the graph green, one commit at a time.*
 
 <!-- AUTO-GENERATED — DO NOT EDIT MANUALLY -->
-<!-- Last updated: 2026-05-13T14:05:47.323130+00:00 -->
+<!-- Last updated: 2026-05-13T14:05:53.605195+00:00 -->
 
 ---
 
@@ -54,7 +54,7 @@ Legend: (space)=0  ░=1  ▒=2  ▓=3+
 
 ## 💬 Today's Quote
 
-> *Any fool can write code that a computer can understand. Good programmers write code that humans can understand. — Martin Fowler*
+> *Talk is cheap. Show me the code. — Linus Torvalds*
 
 ---
 
