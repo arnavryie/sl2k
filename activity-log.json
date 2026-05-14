@@ -169,16 +169,16 @@
   },
   {
     "date": "2026-05-14",
-    "timestamp": "2026-05-14T11:18:28.931549+00:00",
+    "timestamp": "2026-05-14T11:18:29.372405+00:00",
     "commits": 1,
     "streak_day": 12,
     "mood": "🌙 late-night",
-    "quote": "Software is a great combination between artistry and engineering. — Bill Gates",
+    "quote": "Talk is cheap. Show me the code. — Linus Torvalds",
     "metrics": {
-      "tests_written": 3,
-      "bugs_squashed": 4,
-      "docs_written_lines": 53,
-      "stack_overflow_tabs": 15
+      "docs_written_lines": 25,
+      "lines_reviewed": 227,
+      "prs_skimmed": 4,
+      "stack_overflow_tabs": 18
     }
   }
 ]
