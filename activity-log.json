@@ -169,16 +169,16 @@
   },
   {
     "date": "2026-05-14",
-    "timestamp": "2026-05-14T11:18:23.152810+00:00",
+    "timestamp": "2026-05-14T11:18:23.612592+00:00",
     "commits": 1,
     "streak_day": 12,
     "mood": "🌙 late-night",
-    "quote": "Talk is cheap. Show me the code. — Linus Torvalds",
+    "quote": "Every great developer you know got there by solving problems they were unqualified to solve until they did it. — Patrick McKenzie",
     "metrics": {
-      "tests_written": 7,
-      "coffee_consumed_ml": 479,
-      "prs_skimmed": 3,
-      "docs_written_lines": 65
+      "bugs_squashed": 0,
+      "docs_written_lines": 126,
+      "prs_skimmed": 6,
+      "lines_reviewed": 327
     }
   }
 ]
