@@ -169,16 +169,16 @@
   },
   {
     "date": "2026-05-14",
-    "timestamp": "2026-05-14T11:18:29.788574+00:00",
+    "timestamp": "2026-05-14T11:18:30.204110+00:00",
     "commits": 1,
     "streak_day": 12,
     "mood": "🌙 late-night",
-    "quote": "Software is a great combination between artistry and engineering. — Bill Gates",
+    "quote": "Every great developer you know got there by solving problems they were unqualified to solve until they did it. — Patrick McKenzie",
     "metrics": {
-      "bugs_squashed": 4,
-      "commits_pondered": 7,
-      "stack_overflow_tabs": 10,
-      "coffee_consumed_ml": 351
+      "coffee_consumed_ml": 203,
+      "prs_skimmed": 6,
+      "commits_pondered": 4,
+      "bugs_squashed": 2
     }
   }
 ]
