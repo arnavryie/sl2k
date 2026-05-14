@@ -169,16 +169,16 @@
   },
   {
     "date": "2026-05-14",
-    "timestamp": "2026-05-14T11:18:25.842660+00:00",
+    "timestamp": "2026-05-14T11:18:26.276856+00:00",
     "commits": 1,
     "streak_day": 12,
     "mood": "🌙 late-night",
-    "quote": "Any fool can write code that a computer can understand. Good programmers write code that humans can understand. — Martin Fowler",
+    "quote": "First, solve the problem. Then, write the code. — John Johnson",
     "metrics": {
-      "tests_written": 2,
-      "stack_overflow_tabs": 5,
-      "bugs_squashed": 1,
-      "prs_skimmed": 8
+      "bugs_squashed": 2,
+      "prs_skimmed": 6,
+      "lines_reviewed": 105,
+      "coffee_consumed_ml": 239
     }
   }
 ]
