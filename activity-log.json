@@ -169,16 +169,16 @@
   },
   {
     "date": "2026-05-14",
-    "timestamp": "2026-05-14T11:18:30.204110+00:00",
+    "timestamp": "2026-05-14T11:18:30.582197+00:00",
     "commits": 1,
     "streak_day": 12,
     "mood": "🌙 late-night",
-    "quote": "Every great developer you know got there by solving problems they were unqualified to solve until they did it. — Patrick McKenzie",
+    "quote": "Any fool can write code that a computer can understand. Good programmers write code that humans can understand. — Martin Fowler",
     "metrics": {
-      "coffee_consumed_ml": 203,
-      "prs_skimmed": 6,
-      "commits_pondered": 4,
-      "bugs_squashed": 2
+      "lines_reviewed": 114,
+      "coffee_consumed_ml": 337,
+      "tests_written": 12,
+      "docs_written_lines": 67
     }
   }
 ]
