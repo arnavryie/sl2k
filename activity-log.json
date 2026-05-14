@@ -169,16 +169,16 @@
   },
   {
     "date": "2026-05-14",
-    "timestamp": "2026-05-14T11:18:18.232567+00:00",
+    "timestamp": "2026-05-14T11:18:18.658561+00:00",
     "commits": 1,
     "streak_day": 12,
     "mood": "🌙 late-night",
     "quote": "In order to be irreplaceable, one must always be different. — Coco Chanel",
     "metrics": {
-      "docs_written_lines": 124,
-      "tests_written": 6,
-      "coffee_consumed_ml": 258,
-      "stack_overflow_tabs": 7
+      "tests_written": 1,
+      "lines_reviewed": 373,
+      "stack_overflow_tabs": 16,
+      "bugs_squashed": 3
     }
   }
 ]
