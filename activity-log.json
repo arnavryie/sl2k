@@ -169,16 +169,16 @@
   },
   {
     "date": "2026-05-14",
-    "timestamp": "2026-05-14T11:18:17.271418+00:00",
+    "timestamp": "2026-05-14T11:18:17.740750+00:00",
     "commits": 1,
     "streak_day": 12,
     "mood": "🌙 late-night",
-    "quote": "Talk is cheap. Show me the code. — Linus Torvalds",
+    "quote": "The best time to plant a tree was 20 years ago. The second best time is now. — Chinese Proverb",
     "metrics": {
-      "docs_written_lines": 30,
-      "bugs_squashed": 3,
-      "tests_written": 12,
-      "commits_pondered": 4
+      "commits_pondered": 1,
+      "docs_written_lines": 31,
+      "lines_reviewed": 67,
+      "bugs_squashed": 3
     }
   }
 ]
