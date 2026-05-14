@@ -169,16 +169,16 @@
   },
   {
     "date": "2026-05-14",
-    "timestamp": "2026-05-14T11:18:26.276856+00:00",
+    "timestamp": "2026-05-14T11:18:26.740159+00:00",
     "commits": 1,
     "streak_day": 12,
     "mood": "🌙 late-night",
-    "quote": "First, solve the problem. Then, write the code. — John Johnson",
+    "quote": "Programs must be written for people to read, and only incidentally for machines to execute. — Abelson & Sussman",
     "metrics": {
-      "bugs_squashed": 2,
-      "prs_skimmed": 6,
-      "lines_reviewed": 105,
-      "coffee_consumed_ml": 239
+      "tests_written": 0,
+      "prs_skimmed": 1,
+      "docs_written_lines": 100,
+      "coffee_consumed_ml": 393
     }
   }
 ]
