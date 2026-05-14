@@ -111,6 +111,7 @@ def update_stats(stats: dict) -> dict:
     today = today_str()
     last_date = stats.get("last_commit_date", "")
 
+    stats["total_commits"] = stats.get("total_commits", 0) + COMMIT_COUNT
     if last_date == today:
         # Already ran today — just increment daily count
         stats["daily_commits"] = stats.get("daily_commits", 1) + 1
@@ -127,7 +128,6 @@ def update_stats(stats: dict) -> dict:
     except (ValueError, TypeError):
         stats["current_streak"] = 1
 
-    stats["total_commits"] = stats.get("total_commits", 0) + COMMIT_COUNT
     stats["total_days"] = stats.get("total_days", 0) + 1
     stats["longest_streak"] = max(stats.get("longest_streak", 0), stats["current_streak"])
     stats["last_commit_date"] = today
@@ -171,7 +171,7 @@ def build_ascii_graph(log: list) -> str:
     lines = []
     days_label = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
     shade = [" ", "░", "▒", "▓", "█"]  # 0, 1, 2, 3 commits
-
+    
     # Header: week columns
     header = "     " + "  ".join([f"W{i+1}" for i in range(4)])
     lines.append(header)
@@ -410,7 +410,7 @@ def main():
 
     print(f"[generate.py] Streak day: {stats['current_streak']}")
     print(f"[generate.py] Commit message: {msg}")
-    print("[generate.py] Done ✅")
+    print("[generate.py] Done")
 
 if __name__ == "__main__":
     main()
