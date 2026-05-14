@@ -169,16 +169,16 @@
   },
   {
     "date": "2026-05-14",
-    "timestamp": "2026-05-14T11:18:19.154582+00:00",
+    "timestamp": "2026-05-14T11:18:19.601630+00:00",
     "commits": 1,
     "streak_day": 12,
     "mood": "🌙 late-night",
-    "quote": "It always seems impossible until it's done. — Nelson Mandela",
+    "quote": "Talk is cheap. Show me the code. — Linus Torvalds",
     "metrics": {
-      "bugs_squashed": 3,
-      "commits_pondered": 7,
-      "coffee_consumed_ml": 290,
-      "tests_written": 7
+      "bugs_squashed": 1,
+      "coffee_consumed_ml": 399,
+      "docs_written_lines": 80,
+      "prs_skimmed": 8
     }
   }
 ]
