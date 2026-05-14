@@ -169,16 +169,16 @@
   },
   {
     "date": "2026-05-14",
-    "timestamp": "2026-05-14T11:18:24.518399+00:00",
+    "timestamp": "2026-05-14T11:18:24.937418+00:00",
     "commits": 1,
     "streak_day": 12,
     "mood": "🌙 late-night",
-    "quote": "It always seems impossible until it's done. — Nelson Mandela",
+    "quote": "Experience is the name everyone gives to their mistakes. — Oscar Wilde",
     "metrics": {
-      "coffee_consumed_ml": 314,
-      "lines_reviewed": 356,
-      "prs_skimmed": 7,
-      "docs_written_lines": 46
+      "stack_overflow_tabs": 18,
+      "prs_skimmed": 3,
+      "docs_written_lines": 67,
+      "bugs_squashed": 4
     }
   }
 ]
