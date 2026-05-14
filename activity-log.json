@@ -169,16 +169,16 @@
   },
   {
     "date": "2026-05-14",
-    "timestamp": "2026-05-14T11:18:22.684351+00:00",
+    "timestamp": "2026-05-14T11:18:23.152810+00:00",
     "commits": 1,
     "streak_day": 12,
     "mood": "🌙 late-night",
-    "quote": "Any fool can write code that a computer can understand. Good programmers write code that humans can understand. — Martin Fowler",
+    "quote": "Talk is cheap. Show me the code. — Linus Torvalds",
     "metrics": {
-      "lines_reviewed": 231,
-      "bugs_squashed": 2,
-      "commits_pondered": 10,
-      "stack_overflow_tabs": 8
+      "tests_written": 7,
+      "coffee_consumed_ml": 479,
+      "prs_skimmed": 3,
+      "docs_written_lines": 65
     }
   }
 ]
