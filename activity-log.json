@@ -183,16 +183,16 @@
   },
   {
     "date": "2026-05-15",
-    "timestamp": "2026-05-15T11:18:33.537825+00:00",
+    "timestamp": "2026-05-15T11:18:33.978643+00:00",
     "commits": 1,
     "streak_day": 13,
     "mood": "⚡ in flow",
-    "quote": "Experience is the name everyone gives to their mistakes. — Oscar Wilde",
+    "quote": "Every great developer you know got there by solving problems they were unqualified to solve until they did it. — Patrick McKenzie",
     "metrics": {
-      "coffee_consumed_ml": 506,
-      "stack_overflow_tabs": 13,
-      "bugs_squashed": 4,
-      "prs_skimmed": 5
+      "lines_reviewed": 183,
+      "stack_overflow_tabs": 12,
+      "docs_written_lines": 86,
+      "bugs_squashed": 5
     }
   }
 ]
