@@ -183,16 +183,16 @@
   },
   {
     "date": "2026-05-15",
-    "timestamp": "2026-05-15T11:18:41.722739+00:00",
+    "timestamp": "2026-05-15T11:18:42.110672+00:00",
     "commits": 1,
     "streak_day": 13,
     "mood": "⚡ in flow",
-    "quote": "The only way to do great work is to love what you do. — Steve Jobs",
+    "quote": "Experience is the name everyone gives to their mistakes. — Oscar Wilde",
     "metrics": {
-      "coffee_consumed_ml": 349,
-      "lines_reviewed": 201,
-      "prs_skimmed": 3,
-      "stack_overflow_tabs": 3
+      "docs_written_lines": 125,
+      "commits_pondered": 5,
+      "coffee_consumed_ml": 427,
+      "tests_written": 9
     }
   }
 ]
