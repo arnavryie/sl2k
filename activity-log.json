@@ -197,16 +197,16 @@
   },
   {
     "date": "2026-05-16",
-    "timestamp": "2026-05-16T11:19:02.846292+00:00",
+    "timestamp": "2026-05-16T11:19:03.314713+00:00",
     "commits": 1,
     "streak_day": 14,
     "mood": "🧠 thinking",
     "quote": "The only way to do great work is to love what you do. — Steve Jobs",
     "metrics": {
-      "docs_written_lines": 64,
-      "lines_reviewed": 153,
-      "bugs_squashed": 0,
-      "stack_overflow_tabs": 9
+      "coffee_consumed_ml": 581,
+      "tests_written": 7,
+      "lines_reviewed": 267,
+      "prs_skimmed": 2
     }
   }
 ]
