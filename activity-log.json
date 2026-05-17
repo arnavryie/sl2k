@@ -211,16 +211,16 @@
   },
   {
     "date": "2026-05-17",
-    "timestamp": "2026-05-17T20:49:44.504934+00:00",
+    "timestamp": "2026-05-17T20:49:44.862474+00:00",
     "commits": 1,
     "streak_day": 15,
     "mood": "🎧 locked in",
-    "quote": "Talk is cheap. Show me the code. — Linus Torvalds",
+    "quote": "The only way to do great work is to love what you do. — Steve Jobs",
     "metrics": {
-      "lines_reviewed": 256,
-      "tests_written": 1,
-      "bugs_squashed": 1,
-      "docs_written_lines": 23
+      "stack_overflow_tabs": 9,
+      "bugs_squashed": 3,
+      "tests_written": 7,
+      "coffee_consumed_ml": 490
     }
   }
 ]
