@@ -211,16 +211,16 @@
   },
   {
     "date": "2026-05-17",
-    "timestamp": "2026-05-17T20:49:50.868225+00:00",
+    "timestamp": "2026-05-17T20:49:51.240111+00:00",
     "commits": 1,
     "streak_day": 15,
     "mood": "🎧 locked in",
     "quote": "Talk is cheap. Show me the code. — Linus Torvalds",
     "metrics": {
-      "docs_written_lines": 31,
-      "commits_pondered": 4,
-      "prs_skimmed": 7,
-      "bugs_squashed": 1
+      "stack_overflow_tabs": 18,
+      "bugs_squashed": 3,
+      "tests_written": 1,
+      "lines_reviewed": 245
     }
   }
 ]
