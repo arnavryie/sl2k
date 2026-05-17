@@ -211,16 +211,16 @@
   },
   {
     "date": "2026-05-17",
-    "timestamp": "2026-05-17T20:50:00.245894+00:00",
+    "timestamp": "2026-05-17T20:50:00.633248+00:00",
     "commits": 1,
     "streak_day": 15,
     "mood": "🎧 locked in",
-    "quote": "Perfection is achieved not when there is nothing more to add, but when there is nothing left to take away. — Antoine de Saint-Exupéry",
+    "quote": "Programs must be written for people to read, and only incidentally for machines to execute. — Abelson & Sussman",
     "metrics": {
-      "commits_pondered": 5,
-      "lines_reviewed": 84,
-      "stack_overflow_tabs": 9,
-      "coffee_consumed_ml": 327
+      "coffee_consumed_ml": 281,
+      "docs_written_lines": 24,
+      "prs_skimmed": 6,
+      "tests_written": 11
     }
   }
 ]
