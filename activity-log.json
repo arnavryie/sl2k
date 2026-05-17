@@ -211,16 +211,16 @@
   },
   {
     "date": "2026-05-17",
-    "timestamp": "2026-05-17T20:49:52.288009+00:00",
+    "timestamp": "2026-05-17T20:49:52.626002+00:00",
     "commits": 1,
     "streak_day": 15,
     "mood": "🎧 locked in",
-    "quote": "Talk is cheap. Show me the code. — Linus Torvalds",
+    "quote": "Code is like humor. When you have to explain it, it's bad. — Cory House",
     "metrics": {
-      "prs_skimmed": 4,
-      "commits_pondered": 4,
-      "bugs_squashed": 3,
-      "stack_overflow_tabs": 4
+      "bugs_squashed": 5,
+      "docs_written_lines": 145,
+      "lines_reviewed": 347,
+      "prs_skimmed": 5
     }
   }
 ]
