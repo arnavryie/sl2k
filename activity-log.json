@@ -211,16 +211,16 @@
   },
   {
     "date": "2026-05-17",
-    "timestamp": "2026-05-17T07:06:32.040070+00:00",
+    "timestamp": "2026-05-17T07:06:32.722222+00:00",
     "commits": 1,
     "streak_day": 15,
     "mood": "🎧 locked in",
-    "quote": "Clean code always looks like it was written by someone who cares. — Robert C. Martin",
+    "quote": "Talk is cheap. Show me the code. — Linus Torvalds",
     "metrics": {
-      "stack_overflow_tabs": 15,
-      "coffee_consumed_ml": 508,
-      "commits_pondered": 6,
-      "lines_reviewed": 244
+      "tests_written": 6,
+      "lines_reviewed": 225,
+      "prs_skimmed": 5,
+      "commits_pondered": 8
     }
   }
 ]
