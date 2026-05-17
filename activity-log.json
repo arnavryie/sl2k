@@ -211,16 +211,16 @@
   },
   {
     "date": "2026-05-17",
-    "timestamp": "2026-05-17T20:49:59.429880+00:00",
+    "timestamp": "2026-05-17T20:49:59.817826+00:00",
     "commits": 1,
     "streak_day": 15,
     "mood": "🎧 locked in",
-    "quote": "Experience is the name everyone gives to their mistakes. — Oscar Wilde",
+    "quote": "In order to be irreplaceable, one must always be different. — Coco Chanel",
     "metrics": {
-      "stack_overflow_tabs": 4,
-      "commits_pondered": 10,
-      "prs_skimmed": 7,
-      "coffee_consumed_ml": 257
+      "prs_skimmed": 8,
+      "docs_written_lines": 55,
+      "lines_reviewed": 178,
+      "coffee_consumed_ml": 311
     }
   }
 ]
