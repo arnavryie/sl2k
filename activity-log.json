@@ -211,16 +211,16 @@
   },
   {
     "date": "2026-05-17",
-    "timestamp": "2026-05-17T20:49:52.626002+00:00",
+    "timestamp": "2026-05-17T20:49:52.994000+00:00",
     "commits": 1,
     "streak_day": 15,
     "mood": "🎧 locked in",
-    "quote": "Code is like humor. When you have to explain it, it's bad. — Cory House",
+    "quote": "Every great developer you know got there by solving problems they were unqualified to solve until they did it. — Patrick McKenzie",
     "metrics": {
+      "prs_skimmed": 6,
+      "tests_written": 8,
       "bugs_squashed": 5,
-      "docs_written_lines": 145,
-      "lines_reviewed": 347,
-      "prs_skimmed": 5
+      "commits_pondered": 3
     }
   }
 ]
