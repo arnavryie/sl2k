@@ -211,16 +211,16 @@
   },
   {
     "date": "2026-05-17",
-    "timestamp": "2026-05-17T20:50:04.194826+00:00",
+    "timestamp": "2026-05-17T20:50:04.580488+00:00",
     "commits": 1,
     "streak_day": 15,
     "mood": "🎧 locked in",
-    "quote": "Programs must be written for people to read, and only incidentally for machines to execute. — Abelson & Sussman",
+    "quote": "Talk is cheap. Show me the code. — Linus Torvalds",
     "metrics": {
-      "lines_reviewed": 296,
-      "docs_written_lines": 32,
-      "bugs_squashed": 2,
-      "commits_pondered": 7
+      "prs_skimmed": 4,
+      "commits_pondered": 2,
+      "stack_overflow_tabs": 12,
+      "tests_written": 2
     }
   }
 ]
