@@ -211,16 +211,16 @@
   },
   {
     "date": "2026-05-17",
-    "timestamp": "2026-05-17T20:49:46.415404+00:00",
+    "timestamp": "2026-05-17T20:49:46.783632+00:00",
     "commits": 1,
     "streak_day": 15,
     "mood": "🎧 locked in",
     "quote": "Programs must be written for people to read, and only incidentally for machines to execute. — Abelson & Sussman",
     "metrics": {
-      "stack_overflow_tabs": 8,
-      "prs_skimmed": 3,
-      "coffee_consumed_ml": 284,
-      "lines_reviewed": 296
+      "lines_reviewed": 51,
+      "commits_pondered": 2,
+      "docs_written_lines": 10,
+      "bugs_squashed": 5
     }
   }
 ]
