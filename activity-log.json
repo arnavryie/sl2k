@@ -211,16 +211,16 @@
   },
   {
     "date": "2026-05-17",
-    "timestamp": "2026-05-17T20:50:03.047854+00:00",
+    "timestamp": "2026-05-17T20:50:03.420571+00:00",
     "commits": 1,
     "streak_day": 15,
     "mood": "🎧 locked in",
-    "quote": "The best time to plant a tree was 20 years ago. The second best time is now. — Chinese Proverb",
+    "quote": "Talk is cheap. Show me the code. — Linus Torvalds",
     "metrics": {
-      "stack_overflow_tabs": 15,
-      "docs_written_lines": 138,
-      "prs_skimmed": 4,
-      "bugs_squashed": 1
+      "bugs_squashed": 4,
+      "tests_written": 3,
+      "prs_skimmed": 2,
+      "coffee_consumed_ml": 221
     }
   }
 ]
