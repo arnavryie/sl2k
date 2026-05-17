@@ -211,16 +211,16 @@
   },
   {
     "date": "2026-05-17",
-    "timestamp": "2026-05-17T20:49:36.097839+00:00",
+    "timestamp": "2026-05-17T20:49:36.469003+00:00",
     "commits": 1,
     "streak_day": 15,
     "mood": "🎧 locked in",
-    "quote": "The function of good software is to make the complex appear to be simple. — Grady Booch",
+    "quote": "Every great developer you know got there by solving problems they were unqualified to solve until they did it. — Patrick McKenzie",
     "metrics": {
-      "lines_reviewed": 118,
-      "stack_overflow_tabs": 20,
-      "coffee_consumed_ml": 373,
-      "tests_written": 7
+      "docs_written_lines": 129,
+      "coffee_consumed_ml": 564,
+      "stack_overflow_tabs": 12,
+      "tests_written": 0
     }
   }
 ]
