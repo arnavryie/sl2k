@@ -211,16 +211,16 @@
   },
   {
     "date": "2026-05-17",
-    "timestamp": "2026-05-17T20:50:05.006997+00:00",
+    "timestamp": "2026-05-17T20:50:05.347251+00:00",
     "commits": 1,
     "streak_day": 15,
     "mood": "🎧 locked in",
-    "quote": "The best time to plant a tree was 20 years ago. The second best time is now. — Chinese Proverb",
+    "quote": "Any fool can write code that a computer can understand. Good programmers write code that humans can understand. — Martin Fowler",
     "metrics": {
-      "tests_written": 3,
-      "coffee_consumed_ml": 389,
-      "lines_reviewed": 196,
-      "prs_skimmed": 4
+      "bugs_squashed": 2,
+      "prs_skimmed": 7,
+      "lines_reviewed": 93,
+      "tests_written": 8
     }
   }
 ]
