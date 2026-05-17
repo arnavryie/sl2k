@@ -211,16 +211,16 @@
   },
   {
     "date": "2026-05-17",
-    "timestamp": "2026-05-17T07:06:52.813706+00:00",
+    "timestamp": "2026-05-17T07:06:53.428542+00:00",
     "commits": 1,
     "streak_day": 15,
     "mood": "🎧 locked in",
-    "quote": "A good programmer is someone who always looks both ways before crossing a one-way street. — Doug Linder",
+    "quote": "One of the best programming skills you can have is knowing when to walk away for a while. — Oscar Godson",
     "metrics": {
-      "bugs_squashed": 5,
-      "lines_reviewed": 323,
-      "stack_overflow_tabs": 15,
-      "prs_skimmed": 5
+      "coffee_consumed_ml": 530,
+      "prs_skimmed": 1,
+      "docs_written_lines": 65,
+      "commits_pondered": 3
     }
   }
 ]
