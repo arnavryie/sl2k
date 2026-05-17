@@ -211,16 +211,16 @@
   },
   {
     "date": "2026-05-17",
-    "timestamp": "2026-05-17T07:06:42.603872+00:00",
+    "timestamp": "2026-05-17T07:06:43.212259+00:00",
     "commits": 1,
     "streak_day": 15,
     "mood": "🎧 locked in",
-    "quote": "One of the best programming skills you can have is knowing when to walk away for a while. — Oscar Godson",
+    "quote": "Talk is cheap. Show me the code. — Linus Torvalds",
     "metrics": {
-      "prs_skimmed": 3,
-      "coffee_consumed_ml": 324,
-      "tests_written": 1,
-      "docs_written_lines": 98
+      "prs_skimmed": 4,
+      "bugs_squashed": 5,
+      "stack_overflow_tabs": 8,
+      "docs_written_lines": 68
     }
   }
 ]
