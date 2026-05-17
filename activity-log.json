@@ -211,16 +211,16 @@
   },
   {
     "date": "2026-05-17",
-    "timestamp": "2026-05-17T20:49:33.612299+00:00",
+    "timestamp": "2026-05-17T20:49:34.054387+00:00",
     "commits": 1,
     "streak_day": 15,
     "mood": "🎧 locked in",
-    "quote": "In order to be irreplaceable, one must always be different. — Coco Chanel",
+    "quote": "Programs must be written for people to read, and only incidentally for machines to execute. — Abelson & Sussman",
     "metrics": {
-      "stack_overflow_tabs": 16,
-      "prs_skimmed": 3,
-      "tests_written": 5,
-      "commits_pondered": 4
+      "coffee_consumed_ml": 567,
+      "prs_skimmed": 2,
+      "bugs_squashed": 2,
+      "commits_pondered": 6
     }
   }
 ]
