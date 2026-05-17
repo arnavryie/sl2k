@@ -211,16 +211,16 @@
   },
   {
     "date": "2026-05-17",
-    "timestamp": "2026-05-17T20:49:52.994000+00:00",
+    "timestamp": "2026-05-17T20:49:53.367948+00:00",
     "commits": 1,
     "streak_day": 15,
     "mood": "🎧 locked in",
-    "quote": "Every great developer you know got there by solving problems they were unqualified to solve until they did it. — Patrick McKenzie",
+    "quote": "Experience is the name everyone gives to their mistakes. — Oscar Wilde",
     "metrics": {
-      "prs_skimmed": 6,
-      "tests_written": 8,
-      "bugs_squashed": 5,
-      "commits_pondered": 3
+      "coffee_consumed_ml": 582,
+      "stack_overflow_tabs": 16,
+      "bugs_squashed": 1,
+      "prs_skimmed": 3
     }
   }
 ]
