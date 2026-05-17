@@ -211,16 +211,16 @@
   },
   {
     "date": "2026-05-17",
-    "timestamp": "2026-05-17T20:49:42.627901+00:00",
+    "timestamp": "2026-05-17T20:49:44.115204+00:00",
     "commits": 1,
     "streak_day": 15,
     "mood": "🎧 locked in",
-    "quote": "The function of good software is to make the complex appear to be simple. — Grady Booch",
+    "quote": "Experience is the name everyone gives to their mistakes. — Oscar Wilde",
     "metrics": {
-      "lines_reviewed": 363,
-      "docs_written_lines": 125,
-      "prs_skimmed": 5,
-      "stack_overflow_tabs": 3
+      "coffee_consumed_ml": 390,
+      "prs_skimmed": 1,
+      "bugs_squashed": 3,
+      "commits_pondered": 7
     }
   }
 ]
