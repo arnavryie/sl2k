@@ -211,16 +211,16 @@
   },
   {
     "date": "2026-05-17",
-    "timestamp": "2026-05-17T07:06:37.141075+00:00",
+    "timestamp": "2026-05-17T07:06:37.776737+00:00",
     "commits": 1,
     "streak_day": 15,
     "mood": "🎧 locked in",
-    "quote": "Talk is cheap. Show me the code. — Linus Torvalds",
+    "quote": "Experience is the name everyone gives to their mistakes. — Oscar Wilde",
     "metrics": {
-      "coffee_consumed_ml": 394,
-      "lines_reviewed": 303,
-      "commits_pondered": 5,
-      "docs_written_lines": 101
+      "bugs_squashed": 2,
+      "docs_written_lines": 89,
+      "tests_written": 1,
+      "commits_pondered": 10
     }
   }
 ]
