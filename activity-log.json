@@ -211,16 +211,16 @@
   },
   {
     "date": "2026-05-17",
-    "timestamp": "2026-05-17T20:49:49.337749+00:00",
+    "timestamp": "2026-05-17T20:49:49.730527+00:00",
     "commits": 1,
     "streak_day": 15,
     "mood": "🎧 locked in",
-    "quote": "A good programmer is someone who always looks both ways before crossing a one-way street. — Doug Linder",
+    "quote": "Programs must be written for people to read, and only incidentally for machines to execute. — Abelson & Sussman",
     "metrics": {
-      "commits_pondered": 3,
-      "docs_written_lines": 59,
-      "coffee_consumed_ml": 438,
-      "tests_written": 10
+      "lines_reviewed": 56,
+      "bugs_squashed": 1,
+      "commits_pondered": 9,
+      "tests_written": 1
     }
   }
 ]
