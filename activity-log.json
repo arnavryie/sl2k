@@ -211,16 +211,16 @@
   },
   {
     "date": "2026-05-17",
-    "timestamp": "2026-05-17T20:49:51.594602+00:00",
+    "timestamp": "2026-05-17T20:49:51.921275+00:00",
     "commits": 1,
     "streak_day": 15,
     "mood": "🎧 locked in",
-    "quote": "The only way to do great work is to love what you do. — Steve Jobs",
+    "quote": "First, solve the problem. Then, write the code. — John Johnson",
     "metrics": {
-      "docs_written_lines": 15,
-      "commits_pondered": 4,
-      "coffee_consumed_ml": 533,
-      "stack_overflow_tabs": 4
+      "prs_skimmed": 5,
+      "commits_pondered": 5,
+      "stack_overflow_tabs": 18,
+      "bugs_squashed": 3
     }
   }
 ]
