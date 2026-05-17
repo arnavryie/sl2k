@@ -211,16 +211,16 @@
   },
   {
     "date": "2026-05-17",
-    "timestamp": "2026-05-17T20:49:59.049003+00:00",
+    "timestamp": "2026-05-17T20:49:59.429880+00:00",
     "commits": 1,
     "streak_day": 15,
     "mood": "🎧 locked in",
     "quote": "Experience is the name everyone gives to their mistakes. — Oscar Wilde",
     "metrics": {
-      "tests_written": 1,
-      "lines_reviewed": 277,
-      "commits_pondered": 7,
-      "docs_written_lines": 51
+      "stack_overflow_tabs": 4,
+      "commits_pondered": 10,
+      "prs_skimmed": 7,
+      "coffee_consumed_ml": 257
     }
   }
 ]
