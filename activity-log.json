@@ -211,16 +211,16 @@
   },
   {
     "date": "2026-05-17",
-    "timestamp": "2026-05-17T20:49:51.921275+00:00",
+    "timestamp": "2026-05-17T20:49:52.288009+00:00",
     "commits": 1,
     "streak_day": 15,
     "mood": "🎧 locked in",
-    "quote": "First, solve the problem. Then, write the code. — John Johnson",
+    "quote": "Talk is cheap. Show me the code. — Linus Torvalds",
     "metrics": {
-      "prs_skimmed": 5,
-      "commits_pondered": 5,
-      "stack_overflow_tabs": 18,
-      "bugs_squashed": 3
+      "prs_skimmed": 4,
+      "commits_pondered": 4,
+      "bugs_squashed": 3,
+      "stack_overflow_tabs": 4
     }
   }
 ]
