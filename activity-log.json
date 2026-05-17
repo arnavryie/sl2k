@@ -211,16 +211,16 @@
   },
   {
     "date": "2026-05-17",
-    "timestamp": "2026-05-17T20:49:34.531357+00:00",
+    "timestamp": "2026-05-17T20:49:34.950354+00:00",
     "commits": 1,
     "streak_day": 15,
     "mood": "🎧 locked in",
-    "quote": "A good programmer is someone who always looks both ways before crossing a one-way street. — Doug Linder",
+    "quote": "Any fool can write code that a computer can understand. Good programmers write code that humans can understand. — Martin Fowler",
     "metrics": {
-      "prs_skimmed": 4,
-      "commits_pondered": 4,
-      "stack_overflow_tabs": 14,
-      "lines_reviewed": 89
+      "prs_skimmed": 3,
+      "docs_written_lines": 128,
+      "coffee_consumed_ml": 318,
+      "bugs_squashed": 5
     }
   }
 ]
